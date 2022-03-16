@@ -8,6 +8,8 @@ var openBugs = [[ 3455355 , "Jose" ,"Opened on 03/02/2022:<br> The program is no
 var closedBugs = [[ 4464646, "Eddie" , "Opened on 02/16/2022:<br> Computer keeps freezing when submitting.<br>  Fixed on 2/17/2022: Restarted the computer."],
                    [7492103, "Jose" ,"Opened on 02/18/2022:<br> The program wont start. <br>Fixed on 02/19/2022: Restarted the computer."]];
 
+                   /* */
+
 function currentBug() {
 
     let textOpenBugs = "";
