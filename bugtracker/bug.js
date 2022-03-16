@@ -5,7 +5,7 @@ var resolvedBugEl = document.getElementById("resolvedBugs");
 var openBugs = [[ 3455355 , "Jose" ,"Opened on 03/02/2022:<br> The program is not returning the right information. "],
                  [4354543, ,"Opened on 03/05/2022:<br> The GUI is not showing all the options as normal. "]
 ];
-var closedBugs = [[ 4464646, "Eddie" , "Opened on 02/16/2022:<br> Computer keeps freezing when submitting.<br>  Fixed on 2/17/2022: Restarted the computer."],
+var closedBugs = [[ 4464646, "Eddie" , "Opened on 02/16/2022:<br> Computer keeps freezing when submitting.<br> Fixed on 2/17/2022: Deleted blot ware."],
                    [7492103, "Jose" ,"Opened on 02/18/2022:<br> The program wont start. <br>Fixed on 02/19/2022: Restarted the computer."]];
 
                    /* */
