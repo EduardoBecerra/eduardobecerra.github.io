@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Eddies Form</title> 
+        <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tip" style="text-align:center">
+        <h2>Tip Generator</h2>
+        <input class="input" type="text" id="moneySpent" placeholder="Enter amount..."/>
+        <div>
+        <select class="select" type="number" id="percent" multiple>
+          <option value = ".10"> 10% Good Service  </option>
+          <option value = ".15"> 15% Great Service </option>
+          <option value = ".20"> 20% Best Service </option>
+          <option value = ".25"> 25% Above and Beyond </option>
+        </select>
+        <div>
+        <button class="button" onclick="tip();">Enter</button>
+        <div>
+        <input class="output" type="text" id="tipRequired" placeholder="Result" readonly/>
+        
+    </div>    
+    </div>
+    </div>
+    </div>
+    <script src="tip.js"></script>
+  </body>
+</html>
