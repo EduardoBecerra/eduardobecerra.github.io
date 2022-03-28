@@ -1,0 +1,105 @@
+:root {
+
+  --secondary-color: hsla(120, 4%, 66%, 0.8);
+  --box-shadow: 0 1px 3px #0000001f, 0 1px 2px rgba(0, 0, 0, 0.24);
+
+
+  --background-secondary-color: rgb(46, 46, 46);
+  --border-color: #80717f;
+  --border-secondary-color: #bcc0cb;  
+}
+
+* {
+  box-sizing: border-box;
+} 
+
+body {
+
+  background-image: url(calc.jpg);
+  background-size: cover;
+
+  color: var(--secondary-color);
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.pass {
+  background-color: rgb(240, 245, 239);
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: relative;
+}
+.how {
+  margin: 10px 0 30px;
+
+}
+
+.input {
+ 
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--background-secondary-color);
+  border: 0;
+  font-size: 16px;
+  border-radius: 5px;
+  max-width: 205px;
+  min-width: 205px;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--background-secondary-color);
+  border: 0;
+  font-size: 16px;
+  border-radius: 5px;
+  max-width: 205px;
+  min-width: 205px;
+
+}
+.output {
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--background-secondary-color);
+  border: 0;
+  font-size: 16px;
+  border-radius: 5px;
+  max-width: 205px;
+  min-width: 205px;
+}
+.list {
+ 
+ 
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: var(--background-secondary-color);
+  border: 2;
+  display: block;
+  font-size: 16px;
+ 
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  word-wrap: break-word;
+  
+  max-width: 300px;
+  min-width: 300px;
+}
+.select {
+  margin: 10px;
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--background-secondary-color);
+  border: 0;
+  font-size: 16px;
+  border-radius: 5px;
+  max-width: 90px;
+  min-width: 90px;
+  max-height: 57px;
+}
