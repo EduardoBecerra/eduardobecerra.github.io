@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Bug Tracker</title> 
+        <script src="bug.js"></script>
+        <link rel="stylesheet" href="bugstyle.css" />
+  </head>
+  <body onload="currentBug();">
+    <div class="bug" >
+        <h1 style="text-align:center">Bug Tracker</h1>
+        
+        <textarea type="text" id="newBug" class="newBug" placeholder="Enter bug desciption"></textarea>
+        <button class="enter" onclick="newBug();">New Bug Entry</button>
+        <h2>Open Bugs</h2>
+        <ul type="text" class="postedBug" id="listBug"  readonly></ul>
+       
+        <div></div>
+        <h2>Closed Bugs</h2>
+        <ul class="closedBug" id="resolvedBugs" class="resolvedBugs"></ul>
+        
+        <p style="text-align:center">Developed by Eduardo Becerra</p>
+          
+    </div>
+    <script src="bug.js"></script>
+  </body>
+</html>
