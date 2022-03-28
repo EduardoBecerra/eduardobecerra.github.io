@@ -30,6 +30,8 @@ body {
 .home {
   margin-right:auto; 
   margin-left: 10px;
+  margin-top:relative;
+  
 }
 
 .tip {
@@ -37,7 +39,7 @@ body {
   border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   width: 300px;
-  height: 317px;
+  height: 350px;
 
 
 }
