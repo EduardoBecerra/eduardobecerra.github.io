@@ -1,28 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <!-- Eduardo -->
-        <meta charset="UTF-8" />
-        <title>Bug Tracker</title> 
-        <script src="bug.js"></script>
-        <link rel="stylesheet" href="bugstyle.css" />
-  </head>
-  <body onload="currentBug();">
-    <div class="bug" >
-        <h1 style="text-align:center">Bug Tracker</h1>
-        
-        <textarea type="text" id="newBug" class="newBug" placeholder="Enter bug desciption"></textarea>
-        <button class="enter" onclick="newBug();">New Bug Entry</button>
-        <h2>Open Bugs</h2>
-        <ul type="text" class="postedBug" id="listBug"  readonly></ul>
-       
-        <div></div>
-        <h2>Closed Bugs</h2>
-        <ul class="closedBug" id="resolvedBugs" class="resolvedBugs"></ul>
-        
-        <p style="text-align:center">Developed by Eduardo Becerra</p>
-          
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Eduardo Becerra</title>
+</head>
+
+<body>
+ 
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>Eduardo <span>Becerra</span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+           
+          </ul>
+        </div>
+      </div>
     </div>
-    <script src="bug.js"></script>
-  </body>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Greetings,</h1>
+        <h1>Entry Level</h1>
+        <h1>Full Stack<h1>
+        <h1>Software Developer</h1>
+        <h1>Java | JavaScript | HTML | CSS</h1>
+        <h1></h1>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    
+    <div class="services container">
+      <h1 class="section-title">Projects</h1>
+      <div class="service-top">
+      </div>
+      <div  class="service-bottom">
+
+        <div class="service-item">
+        <p><a href="https://eduardobecerra.github.io/bugtracker/">
+          <img src="img/bugs.jpg" alt="W3Schools.com" width="200" height="300" >
+          </a><h2 class="proj">Bug Tracker</h2>
+          <p>Helps to track computer bugs buy creating, assigning, updating, and closing tickets.</p></p>
+        </div>
+
+        <div class="service-item">
+          <p><a href="https://eduardobecerra.github.io/tip/">
+            <img src="img/fine.jpg" alt="W3Schools.com" width="200" height="300" >
+            </a><h2 class="proj">Tip Calculator</h2>
+            <p>After Enjoying a delicious meal at a restaurant, use it to calculate the correct tip. </p></p>
+          </div>
+
+          <div class="service-item">
+            <p><a href="https://www.w3schools.com">
+              <img src="img/key.jpg" alt="W3Schools.com" >
+              </a><h2 class="proj">Password Checker</h2>
+              <p>In a digital world of hacking it checks how long it takes a super computer to crack a password. </p></p>
+            </div>
+
+            <div class="service-item">
+              <p><a href="https://www.w3schools.com">
+                <img src="img/calc.jpg" alt="W3Schools.com" >
+                </a><h2 class="proj">Financial Advisor</h2>
+                <p>Automatically produces a budget report based on a hourly, monthly, or yearly income.</p></p>
+              </div>
+        
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/eduardo.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Java | JavaScript | HTML | CSS </h2>
+        <h2>Entry Level Full Stack Developer</h2>
+        <p>Frontend developer trained in JavaScript, HTML, CSS, and Backend Oracle certified java developer trained in Spring Boot Rest API (MongoDB & MySQL) with a bachelor’s degree in information technology currently working in management at Wynn a 5-star hotel & casino in Las Vegas Nevada. </p>
+        <a href="./doc/resume.docx" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section> 
+  <!-- End About Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>Eduardo <span>Becerra</span></h1>
+      </div>
+      <h2>Contact me and let’s get to work!</h2>
+      <h2>eduardobecerra47@outlook.com</h2>
+      
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
 </html>
