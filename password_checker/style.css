@@ -21,6 +21,10 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+.home {
+  margin-right:auto; 
+  margin-left: 10px;
+}
 
 .pass {
   background-color: rgb(241, 241, 241);

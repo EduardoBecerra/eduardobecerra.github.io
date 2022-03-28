@@ -27,6 +27,10 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+.home {
+  margin-right:auto; 
+  margin-left: 10px;
+}
 
 .tip {
   background-color: rgb(240, 215, 148);

@@ -7,8 +7,7 @@
     --background-secondary-color: #fff;
     --border-color: #80717f;
     --border-secondary-color: #bcc0cb;
-    --plus-color: #2ecc71;
-    --minus-color: #c0392b;
+
   }
 
   * {
@@ -27,6 +26,11 @@
     min-height: 100vh;
     margin: 0;
   
+  }
+
+  .home {
+    margin-right:auto; 
+    margin-left: 10px;
   }
   
   .bug {
